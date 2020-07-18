@@ -26,8 +26,19 @@
 
 class Person {
   constructor(name, lastName) {
-    super()
     this.name = name
     this.lastName = lastName
   }
+
+  greet() {
+    console.log(`My name is ${this.name} ${this.lastName}`)
+  }
 }
+
+const person1 = new Person('John', 'Doe')
+const person2 = new Person('Jane', 'Devid')
+
+person1.greet()
+person2.greet()
+
+console.log(person1)
