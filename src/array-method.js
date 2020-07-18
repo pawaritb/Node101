@@ -8,7 +8,7 @@ const roles = ['Manager', 'Technical', 'SA', 'HR']
 const employees = Array(100)
   .fill(null)
   .map(() => ({
-    name: faker.name.findName(),
+    name: faker.name.firstName(),
     lastName: faker.name.lastName(),
     email: faker.internet.email(),
     age: _.random(20, 50),
