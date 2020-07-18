@@ -74,3 +74,13 @@ app()
 // })
 
 // console.log('Testttt')
+
+// ###########################################
+// const fs = require('fs').promises
+
+// const app = async () => {
+//   const data = await fs.readFile(`${__dirname}/event.js`)
+//   console.log(data.toString())
+// }
+
+// app()
