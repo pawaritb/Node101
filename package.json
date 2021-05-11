@@ -15,7 +15,7 @@
     "faker": "^4.1.0",
     "koa": "^2.13.0",
     "koa-router": "^9.1.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
